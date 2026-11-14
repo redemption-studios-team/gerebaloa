@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gere | Música, lanzamientos y contrataciones</title>
+<meta name="description" content="Página oficial de Gere (Portable Noise): escucha SE ME ADELANTO y sus lanzamientos en Spotify, mira su video y sus reels y escríbele para contrataciones.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://gerebaloa.com/">
+<meta name="theme-color" content="#172619">
+<meta name="color-scheme" content="dark">
+<meta property="og:title" content="Gere | Música, lanzamientos y contrataciones">
+<meta property="og:description" content="Página oficial de Gere (Portable Noise): escucha SE ME ADELANTO y sus lanzamientos en Spotify, mira su video y sus reels y escríbele para contrataciones.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gerebaloa.com/">
+<meta property="og:locale" content="es_US">
+<meta property="og:site_name" content="Gere">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23172619'/%3E%3Crect x='5' y='5' width='22' height='22' fill='none' stroke='%23E9C54A' stroke-width='3'/%3E%3C/svg%3E">
+<script>document.documentElement.classList.add('motion');</script>
+<noscript><style>[data-reveal]{opacity:1!important;transform:none!important}</style></noscript>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800;1,900&amp;family=Montserrat:wght@400;500;600;700;800&amp;display=swap">
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#172619;
+  --surface:#212E1B;
+  --surface-2:#2A3822;
+  --line:#3E4A2F;
+  --field:#8FA07E;
+  --text:#F1DEC0;
+  --soft:#DACBAB;
+  --muted:#B8AE92;
+  --accent:#E9C54A;
+  --on-accent:#172619;
+  --m-ok:#4ADE80;
+  --m-warn:#F2A93B;
+  --m-clip:#EF4444;
+  --a1:#E9C54A;
+  --a2:#F1DEC0;
+  --a3:#3E4A2F;
+  --a4:#C8102E;
+  --hero-bg:radial-gradient(760px 520px at 85% 0%,rgba(233,197,74,.10),transparent 70%),radial-gradient(700px 480px at 0% 100%,rgba(62,74,47,.55),transparent 70%);
+  --display:"Playfair Display",Georgia,serif;
+  --display-w:800;
+  --display-ls:-.01em;
+  --display-case:none;
+  --body:"Montserrat",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --r:8px;
+  --r-lg:14px;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --maxw:1160px; --gut:16px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--bg);color:var(--text);font:400 1rem/1.6 var(--body);-webkit-font-smoothing:antialiased;overflow-x:clip;padding-bottom:74px}
+h1,h2,h3,p,ul,ol,figure,dl,dd{margin:0}
+ul,ol{padding:0;list-style:none}
+a{color:inherit}
+svg{max-width:100%}
+main:focus{outline:none}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gut)}
+@media(min-width:720px){:root{--gut:28px}}
+.skip{position:absolute;left:12px;top:-80px;z-index:100;background:var(--accent);color:var(--on-accent);padding:10px 16px;border-radius:var(--r);font-weight:700;text-decoration:none}
+.skip:focus{top:12px}
+
+
+.site-header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid transparent;transition:background .3s ease,border-color .3s ease}
+.site-header.is-scrolled{background:color-mix(in srgb,var(--bg) 82%,transparent);-webkit-backdrop-filter:saturate(140%) blur(12px);backdrop-filter:saturate(140%) blur(12px);border-color:var(--line)}
+.bar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;min-height:62px;padding-block:8px}
+.brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;margin-right:auto}
+.brand b{font:var(--display-w) 1.2rem/1 var(--display);letter-spacing:var(--display-ls);text-transform:var(--display-case)}
+.brand i{font-style:normal;display:block;font-size:.625rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--accent);margin-top:4px}
+.nav{order:3;width:100%;display:flex;flex-wrap:wrap;gap:0 18px;padding-bottom:6px}
+.nav a{color:var(--soft);text-decoration:none;font-size:.8125rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:10px 0}
+.nav a:hover{color:var(--text)}
+.nav-toggle{display:none;min-height:44px;padding:0 14px;background:transparent;color:var(--text);border:1px solid var(--line);border-radius:var(--r);font:600 .75rem/1 var(--body);letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+.js-nav .nav{display:none}
+.js-nav .nav.is-open{display:flex;flex-direction:column;padding-bottom:10px}
+.js-nav .nav-toggle{display:inline-flex;align-items:center}
+.btn.head-cta{display:none}
+.bar{gap:8px 10px}.nav-toggle{padding:0 12px}.brand{gap:8px}.brand b{font-size:.85rem;letter-spacing:0}.brand i{font-size:.56rem;letter-spacing:.18em}.brand svg{width:30px;height:30px}
+@media(min-width:440px){.bar{gap:8px 14px}.nav-toggle{padding:0 14px}.brand{gap:10px}.brand b{font-size:1.2rem;letter-spacing:var(--display-ls)}.brand i{font-size:.625rem;letter-spacing:.24em}.brand svg{width:34px;height:34px}}
+.brand,.brand span{min-width:0}
+.nav a,.btn{white-space:nowrap}
+@media(min-width:980px) and (max-width:1279px){.nav a{font-size:.75rem}.nav,.js-nav .nav,.js-nav .nav.is-open{gap:0 14px}}
+@media(min-width:980px){
+  .bar{flex-wrap:nowrap}
+  .brand{margin-right:0}
+  .nav,.js-nav .nav,.js-nav .nav.is-open{order:1;width:auto;display:flex;flex-direction:row;padding:0;margin-left:auto;gap:0 22px}
+  .js-nav .nav-toggle{display:none}
+  .btn.head-cta{display:inline-flex;order:2;margin-left:10px}
+}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 22px;border-radius:var(--r);border:2px solid transparent;font:700 .875rem/1 var(--body);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:transform .2s var(--ease),background .2s ease,border-color .2s ease}
+.btn-primary{background:var(--accent);color:var(--on-accent)}
+.btn-primary:hover{background:color-mix(in srgb,var(--accent) 86%,var(--text))}
+.btn-outline{background:transparent;color:var(--text);border-color:color-mix(in srgb,var(--text) 40%,transparent)}
+.btn-outline:hover{border-color:var(--text)}
+.btn-sm{min-height:44px;padding:10px 16px;font-size:.75rem}
+@media(prefers-reduced-motion:no-preference) and (hover:hover){.btn:hover{transform:translateY(-2px)}}
+
+.badge{display:inline-flex;align-items:center;gap:8px;margin-bottom:18px;padding:6px 12px;border:1px dashed var(--accent);border-radius:999px;color:var(--accent);font-size:.6875rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.badge::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent)}
+
+.hero{position:relative;padding:34px 0 56px;overflow:hidden;background:var(--hero-bg)}
+.hero-grid{display:grid;gap:32px;align-items:center}
+.kicker{margin-bottom:12px;font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+.h1{font:var(--display-w) clamp(2.3rem,8.6vw,4.1rem)/1 var(--display);letter-spacing:var(--display-ls);text-transform:var(--display-case);margin-bottom:20px;overflow-wrap:break-word}
+.h1 em{font-style:normal;color:var(--accent);display:block}
+.lead{max-width:48ch;font-size:clamp(1.0625rem,2.4vw,1.25rem);color:var(--soft);margin-bottom:28px}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px}
+.cta-row .btn{flex:1 1 200px}
+@media(min-width:720px){.cta-row .btn{flex:0 0 auto}}
+.hero-art{position:relative;border-radius:var(--r-lg);overflow:hidden;border:1px solid var(--line);background:var(--surface)}
+.hero-art svg{display:block;width:100%;height:auto}
+.hero-art figcaption,.tile figcaption{position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:space-between;gap:10px;padding:12px 14px;font-size:.6875rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);background:linear-gradient(0deg,color-mix(in srgb,var(--bg) 88%,transparent),transparent)}
+.facts{display:grid;margin-top:40px;border-top:1px solid var(--line)}
+.facts li{padding:14px 0;border-bottom:1px solid var(--line)}
+.facts strong{display:block;font:var(--display-w) 1.1rem/1.15 var(--display);letter-spacing:var(--display-ls);text-transform:var(--display-case)}
+.facts span{font-size:.9375rem;color:var(--soft)}
+@media(min-width:760px){
+  .facts{grid-template-columns:repeat(3,1fr)}
+  .facts li{padding:18px 22px;border-bottom:0;border-left:1px solid var(--line)}
+  .facts li:first-child{padding-left:0;border-left:0}
+}
+@media(min-width:980px){
+  .hero{padding:64px 0 80px}
+  .hero-grid{grid-template-columns:1.05fr .95fr;gap:56px}
+}
+
+.section{padding:64px 0;border-top:1px solid var(--line)}
+.section.alt{background:var(--surface)}
+@media(min-width:900px){.section{padding:96px 0}}
+.h2{font:var(--display-w) clamp(1.9rem,6vw,3.4rem)/1.02 var(--display);letter-spacing:var(--display-ls);text-transform:var(--display-case);margin-bottom:14px}
+.intro{max-width:62ch;color:var(--soft);font-size:1.0625rem;margin-bottom:34px}
+.grid{display:grid;gap:16px}
+@media(min-width:720px){.grid-2{grid-template-columns:repeat(2,1fr)}.grid-3{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:24px 22px}
+.alt .card{background:var(--bg)}
+.card h3{font:var(--display-w) 1.25rem/1.15 var(--display);letter-spacing:var(--display-ls);text-transform:var(--display-case);margin-bottom:10px}
+.card p{color:var(--soft)}
+.note{margin-top:18px;max-width:66ch;font-size:.875rem;color:var(--muted)}
+
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.filters button{min-height:40px;padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--soft);font:600 .8125rem/1 var(--body);letter-spacing:.04em;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.gallery{display:grid;gap:12px;grid-template-columns:repeat(2,1fr);grid-auto-flow:dense}
+@media(min-width:900px){.gallery{grid-template-columns:repeat(4,1fr);gap:14px}}
+.tile{position:relative;margin:0;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:var(--surface-2)}
+.tile svg{display:block;width:100%;height:100%;aspect-ratio:1/1}
+.tile.tall{grid-row:span 2}
+.tile.tall svg{aspect-ratio:1/2.04}
+.tile.wide{grid-column:span 2}
+.tile.wide svg{aspect-ratio:2.04/1}
+.tile figcaption{flex-direction:column;gap:2px;text-transform:none;letter-spacing:.01em}
+.tile figcaption strong{color:var(--text);font-size:.875rem;font-weight:700}
+.tile figcaption span{font-size:.6875rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.tile[hidden]{display:none}
+.tile figcaption{background:linear-gradient(0deg,color-mix(in srgb,var(--bg) 94%,transparent) 55%,transparent)}
+@media(max-width:600px){.tile figcaption span{display:none}.tile figcaption{padding:10px}}
+.art-tag{display:inline-block;margin-top:8px;font-size:.75rem;color:var(--muted)}
+
+.about-grid{display:grid;gap:28px}
+@media(min-width:900px){.about-grid{grid-template-columns:1fr 1fr;gap:56px;align-items:start}}
+.about-grid p{color:var(--soft);margin-bottom:14px;font-size:1.0625rem}
+.ticks li{position:relative;padding:11px 0 11px 24px;border-bottom:1px solid var(--line);color:var(--text)}
+.ticks li::before{content:"";position:absolute;left:0;top:1.15em;width:10px;height:2px;background:var(--accent)}
+
+.steps{counter-reset:s;display:grid;gap:16px}
+.steps li{counter-increment:s;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:22px}
+.alt .steps li{background:var(--bg)}
+.steps li::before{content:counter(s,decimal-leading-zero);display:block;font:var(--display-w) 2.2rem/1 var(--display);color:var(--accent);margin-bottom:10px}
+.steps h3{font:var(--display-w) 1.2rem/1.15 var(--display);letter-spacing:var(--display-ls);text-transform:var(--display-case);margin-bottom:8px}
+.steps p{color:var(--soft)}
+@media(min-width:720px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1040px){.steps{grid-template-columns:repeat(4,1fr)}}
+
+.dates li{display:grid;grid-template-columns:76px 1fr;gap:4px 18px;align-items:center;padding:18px 0;border-bottom:1px solid var(--line)}
+.dates li>strong,.dates li>span{grid-column:2}
+.dates .btn{grid-column:2;justify-self:start;margin-top:6px}
+.dates time{grid-row:1/4;grid-column:1;display:grid;place-items:center;text-align:center;min-height:76px;border:1px solid var(--line);border-radius:var(--r);font:var(--display-w) 1.6rem/1 var(--display)}
+.dates time small{display:block;font:700 .625rem/1 var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+.dates strong{font-size:1.0625rem}
+.dates span{color:var(--soft);font-size:.9375rem}
+.dates time span{color:var(--text);font-size:inherit}
+@media(min-width:760px){.dates li{grid-template-columns:96px 1fr auto}.dates time{grid-row:1/3}.dates .btn{grid-column:3;grid-row:1/3;justify-self:end;margin-top:0}}
+.sample{display:inline-block;margin-bottom:16px;padding:4px 10px;border-radius:var(--r);background:var(--surface-2);color:var(--muted);font-size:.75rem;font-weight:600}
+
+.metrics{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:900px){.metrics{grid-template-columns:repeat(4,1fr)}}
+.metrics div{padding:22px 18px;border:1px solid var(--line);border-radius:var(--r-lg);background:var(--bg)}
+.metrics dt{font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.metrics dd{font:var(--display-w) clamp(2rem,6vw,3rem)/1 var(--display);color:var(--accent)}
+.metrics dd.placeholder{color:var(--muted);border-bottom:2px dashed var(--line);display:inline-block}
+
+@media(min-width:980px){.book-grid{grid-template-columns:1fr 1fr;gap:32px;align-items:start}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:22px}
+.alt .panel{background:var(--bg)}
+.step-t{font-size:.8125rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 12px}
+fieldset{border:0;margin:0 0 22px;padding:0;min-width:0}
+legend{padding:0}
+@media(min-width:560px){.types{grid-template-columns:repeat(2,1fr)}}
+.alt .field input,.alt .field select,.alt .field textarea{background:var(--surface)}
+@media(min-width:560px){.row2{grid-template-columns:1fr 1fr}}
+
+.kit{display:grid;gap:12px}
+@media(min-width:720px){.kit{grid-template-columns:repeat(3,1fr)}}
+.kit li{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px;border:1px dashed var(--line);border-radius:var(--r-lg);color:var(--soft)}
+.kit li b{color:var(--text);display:block}
+.kit li small{font-size:.75rem;color:var(--muted)}
+
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;list-style:none;padding:18px 34px 18px 0;position:relative;font-weight:700;font-size:1.0625rem}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:4px;top:14px;font-size:1.5rem;color:var(--accent)}
+.faq details[open] summary::after{content:"\2013"}
+.faq p{padding:0 0 20px;color:var(--soft);max-width:70ch}
+
+.contact{display:grid;gap:22px}
+@media(min-width:900px){.contact{grid-template-columns:1.2fr .8fr;align-items:center}}
+.contact .big{font:var(--display-w) clamp(1.7rem,5vw,2.6rem)/1.05 var(--display);letter-spacing:var(--display-ls);text-decoration:none;color:var(--accent)}
+
+footer{padding:40px 0 30px;border-top:1px solid var(--line);color:var(--muted);font-size:.875rem}
+footer .wrap{display:grid;gap:10px}
+footer strong{color:var(--text)}
+
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:10px var(--gut) calc(10px + env(safe-area-inset-bottom));background:color-mix(in srgb,var(--bg) 92%,transparent);border-top:1px solid var(--line);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.mbar .btn{min-height:46px;padding:10px}
+@media(min-width:980px){.mbar{display:none}body{padding-bottom:0}}
+
+.motion [data-reveal]{opacity:0;transform:translateY(18px);transition:opacity .7s var(--ease),transform .7s var(--ease);transition-delay:var(--reveal-delay,0s)}
+.motion [data-reveal].is-in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .motion [data-reveal]{opacity:1;transform:none;transition:none}
+  .art-anim{animation:none!important}
+  *{transition-duration:.01ms!important}
+}
+@media(prefers-reduced-motion:no-preference){
+  .art-anim{animation:drift 14s ease-in-out infinite alternate;transform-origin:center;transform-box:fill-box}
+  @keyframes drift{to{transform:rotate(8deg) scale(1.03)}}
+}
+
+.hero-art.photo{aspect-ratio:4/4.6;background:var(--surface-2)}
+.hero-art.photo img{display:block;width:100%;height:100%;object-fit:cover}
+.hero.has-photo .hero-art.photo{box-shadow:0 30px 70px -30px rgba(0,0,0,.65)}
+@media(min-width:980px){.hero.has-photo .hero-grid{grid-template-columns:1fr 1fr}.hero-art.photo{aspect-ratio:4/4.4}}
+.tile img{display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:1/1;transition:transform .7s var(--ease)}
+.tile.tall img{aspect-ratio:1/2.04}
+.tile.wide img{aspect-ratio:2.04/1}
+@media(hover:hover){.tile:hover img{transform:scale(1.04)}}
+.about-photo{margin:0 0 20px;border-radius:var(--r-lg);overflow:hidden;border:1px solid var(--line)}
+.about-photo img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover}
+.card.has-img{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.card-img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover}
+.card.has-img .card-body{padding:22px}
+.card:not(.has-img) .card-body{padding:0}
+.strip{display:grid;gap:12px;grid-template-columns:repeat(2,1fr);margin-top:28px}
+@media(min-width:720px){.strip{grid-template-columns:repeat(3,1fr)}}
+.strip figure{margin:0;border-radius:var(--r);overflow:hidden;border:1px solid var(--line)}
+.strip img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+
+.rooms{display:grid;gap:14px}
+@media(min-width:760px){.rooms{grid-template-columns:repeat(6,1fr)}.room{grid-column:span 3}.room:first-child{grid-column:span 6}.room:first-child img{aspect-ratio:21/9}.rooms.r3 .room{grid-column:span 2}}
+.room{position:relative;margin:0;border-radius:var(--r-lg);overflow:hidden;border:1px solid var(--line);background:var(--surface-2)}
+.room img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.room figcaption{position:absolute;inset:auto 0 0 0;padding:34px 18px 16px;background:linear-gradient(0deg,color-mix(in srgb,var(--bg) 92%,transparent) 40%,transparent)}
+.room figcaption strong{display:block;font:var(--display-w) 1.2rem/1.15 var(--display);letter-spacing:var(--display-ls);text-transform:var(--display-case);color:var(--text)}
+.room figcaption span{display:block;margin-top:4px;font-size:.9375rem;color:var(--soft);max-width:60ch}
+
+.pks{display:grid;gap:16px}
+@media(min-width:900px){.pks{grid-template-columns:repeat(3,1fr);align-items:stretch}}
+.pk{position:relative;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden}
+.alt .pk{background:var(--bg)}
+.pk.is-featured{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent),0 26px 60px -34px var(--accent)}
+.pk-img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover}
+.pk-body{display:flex;flex-direction:column;flex:1;padding:22px}
+.pk-flag{align-self:flex-start;margin-bottom:10px;padding:4px 10px;border-radius:999px;background:var(--accent);color:var(--on-accent);font-size:.6875rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.pk h3{font:var(--display-w) 1.5rem/1.1 var(--display);letter-spacing:var(--display-ls);text-transform:var(--display-case);margin-bottom:8px}
+.pk>.pk-body>p{color:var(--soft)}
+.pk-inc{margin:16px 0 8px;font-size:.75rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)!important}
+.pk .ticks{margin-bottom:22px}
+.pk .btn{margin-top:auto;align-self:stretch;text-align:center}
+
+.meters{position:absolute;right:16px;top:16px;display:flex;align-items:flex-end;gap:3px;height:64px;padding:8px 10px;border-radius:8px;background:rgba(8,9,10,.72);border:1px solid var(--line)}
+.meters i,.pl-meters i{display:block;width:5px;height:100%;border-radius:1px;background:linear-gradient(0deg,var(--m-ok) 0 58%,var(--m-warn) 58% 84%,var(--m-clip) 84%);clip-path:inset(calc((1 - var(--lv,.6)) * 100%) 0 0 0)}
+@media(prefers-reduced-motion:no-preference){
+  .meters i{animation:vu 1.6s ease-in-out infinite alternate;animation-delay:calc(var(--n) * -.23s)}
+  @keyframes vu{from{clip-path:inset(calc((1 - var(--lv,.6)) * 100% + 30%) 0 0 0)}to{clip-path:inset(calc((1 - var(--lv,.6)) * 100% - 6%) 0 0 0)}}
+  .player.is-playing .pl-meters i{animation:vu2 .9s ease-in-out infinite alternate;animation-delay:calc(var(--k,0) * -.17s)}
+  @keyframes vu2{from{clip-path:inset(60% 0 0 0)}to{clip-path:inset(8% 0 0 0)}}
+}
+
+.player{border:1px solid var(--line);border-radius:var(--r-lg);background:var(--surface);overflow:hidden}
+.alt .player{background:var(--bg)}
+.pl-top{display:flex;align-items:center;gap:16px;padding:18px 20px;border-bottom:1px solid var(--line);background:var(--surface-2)}
+.pl-btn{flex:0 0 auto;width:56px;height:56px;border-radius:50%;border:0;background:var(--accent);color:var(--on-accent);display:grid;place-items:center;cursor:pointer}
+.pl-btn .ic{width:0;height:0;border-style:solid;border-width:10px 0 10px 17px;border-color:transparent transparent transparent currentColor;margin-left:4px}
+.player.is-playing .pl-btn .ic{width:16px;height:18px;border:0;margin:0;background:linear-gradient(90deg,currentColor 0 35%,transparent 35% 65%,currentColor 65%)}
+.pl-now{flex:1;min-width:0}
+.pl-now b{display:block;font:var(--display-w) 1.25rem/1.15 var(--display);letter-spacing:var(--display-ls);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pl-now small{color:var(--muted);font-size:.8125rem;letter-spacing:.06em;text-transform:uppercase}
+.pl-meters{display:flex;align-items:flex-end;gap:3px;height:38px}
+.pl-meters i{height:100%;--lv:.7}
+.pl-meters i:nth-child(2){--lv:.9;--k:1}.pl-meters i:nth-child(3){--lv:.5;--k:2}.pl-meters i:nth-child(4){--lv:.8;--k:3}.pl-meters i:nth-child(5){--lv:.6;--k:4}.pl-meters i:nth-child(6){--lv:.95;--k:5}
+.pl-bar{position:relative;height:84px;padding:12px 20px;background:var(--bg)}
+.pl-bar .wave{display:block;width:100%;height:100%}
+.pl-bar .wave rect{fill:var(--muted)}
+.pl-head{position:absolute;top:0;bottom:0;left:20px;width:2px;background:var(--m-warn);box-shadow:0 0 12px var(--m-warn);transform:translateX(0)}
+@media(prefers-reduced-motion:no-preference){.player.is-playing .pl-head{animation:head 14s linear infinite}@keyframes head{to{transform:translateX(calc(var(--pw,600px)))}}}
+.trks{list-style:none}
+.trks li+li{border-top:1px solid var(--line)}
+.trk{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:12px;width:100%;padding:14px 20px;border:0;background:transparent;color:var(--text);font:inherit;text-align:left;cursor:pointer}
+.trk:hover,.trk[aria-pressed="true"]{background:color-mix(in srgb,var(--accent) 9%,transparent)}
+.trk-n{font:700 .8125rem var(--body);color:var(--muted);font-variant-numeric:tabular-nums}
+.trk[aria-pressed="true"] .trk-n{color:var(--accent)}
+.trk-t b{display:block;font-size:1rem}.trk-t small{color:var(--muted);font-size:.8125rem}
+.trk-w{display:none}
+.trk-d{font-size:.875rem;color:var(--soft);font-variant-numeric:tabular-nums}
+.trk .wave{width:100%;height:28px}.trk .wave rect{fill:var(--field)}
+.trk[aria-pressed="true"] .wave rect{fill:var(--accent)}
+@media(min-width:720px){.trk{grid-template-columns:34px 1.1fr 1.4fr auto}.trk-w{display:block}}
+
+:root{--gold:#E9C54A;--red:#C8102E}
+body::before{content:"";position:fixed;inset:0;z-index:70;pointer-events:none;opacity:.07;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.h1,.h2,.h1 em,.card h3,.facts strong,.tile figcaption strong,.kit b,.steps h3,.big,.brand b,.step-t,.types strong{font-style:italic}
+.h1{font-size:clamp(2.8rem,9.5vw,5rem);line-height:1.02}.h1 em{font-size:.5em;line-height:1.15;margin-top:.35em}
+.oval{display:inline-block;padding:.02em .42em .14em;border:2px solid var(--text);border-radius:50%;font-size:1.15em}
+.nav a,.btn,.kicker,.badge,.filters button,.facts span,.sample{letter-spacing:.14em}
+.hero-art.photo{background:var(--surface-2);box-shadow:0 0 0 1px var(--line),0 30px 70px -30px rgba(233,197,74,.28)}
+.hero-art.photo img{object-position:50% 40%}
+.card-link{display:inline-block;margin-top:12px;font-weight:800;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);text-decoration:none}
+.soon{display:grid;gap:8px;padding:34px 24px;border:1px dashed var(--muted);border-radius:var(--r-lg);text-align:center}
+.soon strong{font:800 clamp(2rem,7vw,3.6rem)/1.05 var(--display);font-style:italic;color:var(--accent)}.soon span{color:var(--soft)}
+.kit li{opacity:.92}.kit small{font-style:italic}
+.wordmark{margin-bottom:10px;font:700 .6875rem/1.4 var(--body);letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+.rels{display:grid;gap:14px;margin-bottom:26px}.rels-main{margin-bottom:30px}
+.rel{display:grid;gap:12px;align-content:start;padding:20px;border:1px solid var(--line);border-radius:var(--r-lg);background:var(--surface)}
+.alt .rel{background:var(--bg)}.rel-big{border-color:var(--accent);background:linear-gradient(135deg,rgba(233,197,74,.10),rgba(62,74,47,.28))}
+.rel-top{display:grid;grid-template-columns:96px 1fr;gap:16px;align-items:start}.rel-big .rel-top{grid-template-columns:132px 1fr}
+.cover{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--line)}
+.rel-txt{display:grid;gap:8px;align-content:start;min-width:0}.rel-head{display:flex;align-items:baseline;justify-content:space-between;gap:14px;min-width:0}
+.rel h3{font:800 clamp(1.45rem,3.2vw,2rem)/1.05 var(--display);font-style:italic;overflow-wrap:break-word;min-width:0}
+.rel-big h3{font-size:clamp(1.7rem,3.1vw,2.4rem)}
+.rel-y{font:800 .875rem/1 var(--body);letter-spacing:.14em;color:var(--accent)}.tnote{color:var(--soft);font-size:.9375rem}
+.feat-tag{justify-self:start;padding:5px 12px;border-radius:999px;background:var(--accent);color:var(--on-accent);font:800 .6875rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase}
+.track-go{justify-self:start;font:800 .75rem/1 var(--body);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:var(--accent);padding:8px 0}
+.h3{margin:10px 0 14px;font:800 1.5rem/1 var(--display);font-style:italic;color:var(--soft)}
+.player-mini,.player-artist{border-radius:12px;overflow:hidden;background:#000}.player-mini iframe{display:block;width:100%;height:152px;border:0}
+.player-artist{margin-top:8px;border:1px solid var(--line);border-radius:14px}.player-artist iframe{display:block;width:100%;height:352px;border:0}
+@media(min-width:760px){.rels{grid-template-columns:1fr 1fr}.rel-big .rel-top{grid-template-columns:200px 1fr}.rel-top{grid-template-columns:120px 1fr}}
+.vid{max-width:860px}.vframe{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#000}.vframe iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vposter{position:absolute;inset:0;display:block}.vposter img{width:100%;height:100%;object-fit:cover;display:block}
+.vplay{position:absolute;left:50%;top:50%;width:76px;height:76px;margin:-38px 0 0 -38px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 8px rgba(233,197,74,.30)}
+.vplay::after{content:"";position:absolute;left:30px;top:22px;border-style:solid;border-width:16px 0 16px 26px;border-color:transparent transparent transparent var(--on-accent)}
+.vid .note a{color:var(--accent)}
+.ig-grid{display:grid;gap:16px;margin-bottom:8px}@media(min-width:760px){.ig-grid{grid-template-columns:repeat(2,1fr)}}@media(min-width:1100px){.ig-grid{grid-template-columns:repeat(4,1fr)}}
+.ig-slot{min-width:0}.ig-slot iframe.instagram-media{margin:0!important;min-width:0!important;max-width:100%!important;width:100%!important}.ig-slot:has(iframe.instagram-media-rendered) .ig-card{display:none}
+.ig-card{box-sizing:border-box;width:100%;display:grid;gap:10px;align-content:space-between;min-height:260px;padding:22px;border-radius:14px;text-decoration:none;border:1px solid var(--line);background:linear-gradient(160deg,var(--surface-2),#33402a 75%,#3e4a2f)}
+.ig-card strong{font:800 clamp(1.4rem,4vw,1.9rem)/1.1 var(--display);font-style:italic;color:var(--text)}
+.ig-k{font:800 .6875rem/1.2 var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}.ig-go{font:800 .75rem/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.ig-more{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}.ig-more>span{font-size:.8125rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase}
+.ig-chip{padding:9px 14px;border:1px solid var(--line);border-radius:999px;font-size:.8125rem;font-weight:700;text-decoration:none;color:var(--soft)}.ig-chip:hover{border-color:var(--accent);color:var(--text)}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": [
+    "MusicGroup"
+   ],
+   "@id": "https://gerebaloa.com/#business",
+   "name": "Gere",
+   "description": "Página oficial de Gere (Portable Noise): escucha SE ME ADELANTO y sus lanzamientos en Spotify, mira su video y sus reels y escríbele para contrataciones.",
+   "url": "https://gerebaloa.com/",
+   "sameAs": [
+    "https://open.spotify.com/artist/4L9m86AePRhLkbN4QlWasS",
+    "https://music.apple.com/us/album/se-me-adelanto/6801638455?i=6801638456",
+    "https://youtube.com/@geremybaloa",
+    "https://www.instagram.com/gerebaloa/",
+    "https://www.threads.net/@gerebaloa",
+    "https://linktr.ee/geremybaloa"
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://gerebaloa.com/#website",
+   "url": "https://gerebaloa.com/",
+   "name": "Gere",
+   "inLanguage": "es"
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://gerebaloa.com/#webpage",
+   "url": "https://gerebaloa.com/",
+   "name": "Gere | Música, lanzamientos y contrataciones",
+   "isPartOf": {
+    "@id": "https://gerebaloa.com/#website"
+   },
+   "about": {
+    "@id": "https://gerebaloa.com/#business"
+   },
+   "inLanguage": "es"
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://gerebaloa.com/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "¿Dónde puedo escuchar la música de Gere?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "En Spotify: el reproductor oficial de esta página trae sus temas, y cada lanzamiento tiene su propio reproductor. También está en Apple Music y YouTube."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Cuál es el tema más reciente de Gere?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "SE ME ADELANTO, de 2026, es su tema más reciente. Se puede escuchar aquí mismo en Spotify y también en Apple Music."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Hay un video de Gere?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sí: el video de NO DRAMA (versión alternativa) está en la sección de video y en su canal de YouTube. También hay reels y publicaciones en su Instagram."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Cómo contrato a Gere para un show?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Escríbele por Instagram en @gerebaloa con el botón de la sección de contrataciones. Cuéntale la idea: show, colaboración o evento."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Qué es Portable Noise?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Es su sello y su marca, según su perfil de Instagram."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Dónde sigo a Gere?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "En Instagram como @gerebaloa, en Threads, en Spotify, en Apple Music, en YouTube y en su Linktree, con los botones de la sección Dónde escuchar y seguir."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#main" aria-label="Gere"><svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect x="1" y="1" width="32" height="32" rx="8" style="fill:none;stroke:var(--accent)" stroke-width="2"/><text x="17" y="23" text-anchor="middle" style="fill:var(--text);font:700 17px var(--display)">G</text></svg><span><b>Gere</b><i>Portable Noise</i></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menú</button>
+    <nav id="site-nav" class="nav" aria-label="Principal"><a href="#work">Música</a><a href="#listen">Escuchar</a><a href="#about">Sobre</a><a href="#video">Video</a><a href="#instagram">Instagram</a><a href="#book">Contratar</a><a href="#faq">FAQ</a></nav>
+    <a class="btn btn-primary btn-sm head-cta" href="#listen">Escuchar ahora</a>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="hero has-photo" aria-labelledby="h1">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="kicker">Portable Noise · Be intentional</p>
+        <h1 class="h1" id="h1"><span class="oval">Gere</span><em>Rimando sus vivencias</em></h1>
+        <p class="lead">Aquí puedes escuchar mi tema más reciente: SE ME ADELANTO.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#listen">Escuchar ahora</a>
+          <a class="btn btn-outline" href="#book">Contrataciones</a>
+        </div>
+      </div>
+      <figure class="hero-art photo" style="aspect-ratio:1/1"><img src="./img/portada-se-me-adelanto.webp" alt="Portada de SE ME ADELANTO: una luna sobre una playa de noche, con dos siluetas frente al mar" width="640" height="640" decoding="sync" style="object-position:50% 50%"><figcaption><span>SE ME ADELANTO · portada oficial</span></figcaption></figure>
+    </div>
+    <ul class="facts"><li><strong>Portable Noise</strong><span>Su sello y su marca.</span></li><li><strong>SE ME ADELANTO · 2026</strong><span>Su tema más reciente.</span></li><li><strong>Be intentional</strong><span>Su lema, rimando sus vivencias.</span></li></ul>
+  </div>
+</section>
+<section class="section" id="work" aria-label="Música"><div class="wrap"><h2 class="h2" data-reveal>Música</h2><p class="intro" data-reveal>Los lanzamientos de Gere con sus portadas oficiales. Filtra por año.</p><div class="filters" role="group" aria-label="Filter"><button type="button" data-f="*" aria-pressed="true">Todo</button><button type="button" data-f="y2026" aria-pressed="false">2026</button><button type="button" data-f="y2025" aria-pressed="false">2025</button><button type="button" data-f="y2024" aria-pressed="false">2024</button></div><div class="gallery"><figure class="tile " data-cat="y2026" data-reveal><img src="./img/portada-se-me-adelanto.webp" alt="Portada de SE ME ADELANTO" width="640" height="640" decoding="sync"><figcaption><strong>SE ME ADELANTO</strong><span>2026 · el más reciente</span></figcaption></figure><figure class="tile " data-cat="y2025" data-reveal><img src="./img/portada-favela04.webp" alt="Portada de FAVELA04" width="480" height="480" decoding="sync"><figcaption><strong>FAVELA04</strong><span>2025 · tema principal</span></figcaption></figure><figure class="tile " data-cat="y2025" data-reveal><img src="./img/portada-no-drama.webp" alt="Portada de NO DRAMA" width="480" height="480" decoding="sync"><figcaption><strong>NO DRAMA (Versión alternativa)</strong><span>2025 · single</span></figcaption></figure><figure class="tile " data-cat="y2024" data-reveal><img src="./img/portada-no-es-lo-mismo.webp" alt="Portada de NO ES LO MISMO" width="480" height="480" decoding="sync"><figcaption><strong>NO ES LO MISMO</strong><span>2024</span></figcaption></figure><figure class="tile " data-cat="y2024" data-reveal><img src="./img/portada-abc.webp" alt="Portada de ABC" width="480" height="480" decoding="sync"><figcaption><strong>ABC</strong><span>2024 · con Lit&#x27;Shade</span></figcaption></figure><figure class="tile " data-cat="y2024" data-reveal><img src="./img/portada-esta-buscandome.webp" alt="Portada de ESTÁ BUSCÁNDOME" width="480" height="480" decoding="sync"><figcaption><strong>ESTÁ BUSCÁNDOME</strong><span>2024 · Lit&#x27;Shade, HOMEB01 y Gere</span></figcaption></figure></div><p class="note">Portadas oficiales de cada tema, de los perfiles públicos de Gere, usadas con su autorización.</p></div></section>
+<section class="section alt" id="listen" aria-label="Escuchar"><div class="wrap"><h2 class="h2" data-reveal>Escuchar</h2><p class="intro" data-reveal>Cada tema en su reproductor oficial de Spotify, del más reciente al más antiguo.</p><ol class="rels rels-main"><li class="rel rel-big" data-reveal><span class="feat-tag">Más reciente</span><div class="rel-top"><img class="cover" src="./img/portada-se-me-adelanto.webp" alt="Portada de SE ME ADELANTO" width="640" height="640" decoding="sync"><div class="rel-txt"><div class="rel-head"><h3>SE ME ADELANTO</h3><span class="rel-y">2026</span></div><a class="track-go" href="https://music.apple.com/us/album/se-me-adelanto/6801638455?i=6801638456" target="_blank" rel="noopener noreferrer">Apple Music</a></div></div><div class="player-mini"><iframe src="https://open.spotify.com/embed/track/7BelkGWgMxQWrFApNONWe5" title="SE ME ADELANTO · Spotify" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div></li><li class="rel rel-big" data-reveal><span class="feat-tag">Tema principal</span><div class="rel-top"><img class="cover" src="./img/portada-favela04.webp" alt="Portada de FAVELA04" width="480" height="480" decoding="sync"><div class="rel-txt"><div class="rel-head"><h3>FAVELA04</h3><span class="rel-y">2025</span></div></div></div><div class="player-mini"><iframe src="https://open.spotify.com/embed/track/3rp0SXOU3iSHAcc10L0qRQ" title="FAVELA04 · Spotify" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div></li></ol><h3 class="h3" data-reveal>Más temas</h3><ol class="rels"><li class="rel" data-reveal><div class="rel-top"><img class="cover" src="./img/portada-no-drama.webp" alt="Portada de NO DRAMA (Versión alternativa)" width="480" height="480" decoding="sync"><div class="rel-txt"><div class="rel-head"><h3>NO DRAMA (Versión alternativa)</h3><span class="rel-y">2025</span></div><p class="tnote">Single</p></div></div><div class="player-mini"><iframe src="https://open.spotify.com/embed/album/21a6MNvDLdqoJaPsZhGJk7" title="NO DRAMA (Versión alternativa) · Spotify" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div></li><li class="rel" data-reveal><div class="rel-top"><img class="cover" src="./img/portada-no-es-lo-mismo.webp" alt="Portada de NO ES LO MISMO" width="480" height="480" decoding="sync"><div class="rel-txt"><div class="rel-head"><h3>NO ES LO MISMO</h3><span class="rel-y">2024</span></div></div></div><div class="player-mini"><iframe src="https://open.spotify.com/embed/track/2dUMicJ7EzocGgKH0Uowcy" title="NO ES LO MISMO · Spotify" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div></li><li class="rel" data-reveal><div class="rel-top"><img class="cover" src="./img/portada-abc.webp" alt="Portada de ABC" width="480" height="480" decoding="sync"><div class="rel-txt"><div class="rel-head"><h3>ABC</h3><span class="rel-y">2024</span></div><p class="tnote">Con Lit&#x27;Shade</p></div></div><div class="player-mini"><iframe src="https://open.spotify.com/embed/track/3OHREyjjeq8G5JBg5sGgOb" title="ABC · Spotify" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div></li><li class="rel" data-reveal><div class="rel-top"><img class="cover" src="./img/portada-esta-buscandome.webp" alt="Portada de ESTÁ BUSCÁNDOME" width="480" height="480" decoding="sync"><div class="rel-txt"><div class="rel-head"><h3>ESTÁ BUSCÁNDOME</h3><span class="rel-y">2024</span></div><p class="tnote">De Lit&#x27;Shade, HOMEB01 y Gere</p></div></div><div class="player-mini"><iframe src="https://open.spotify.com/embed/track/5HRwVnD7T81h3FRMHGxWge" title="ESTÁ BUSCÁNDOME · Spotify" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div></li></ol><div class="player-artist" data-reveal><iframe src="https://open.spotify.com/embed/artist/4L9m86AePRhLkbN4QlWasS" title="Gere en Spotify" width="100%" height="352" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div><p class="note">Reproductor oficial de Spotify. Esta página no guarda ni copia el audio.</p></div></section>
+<section class="section" id="about" aria-label="Sobre"><div class="wrap"><div class="about-grid"><div data-reveal><h2 class="h2">Sobre Gere</h2><p>Portable Noise · Be intentional · Rimando sus vivencias.</p></div><div><figure class="about-photo" data-reveal><img src="./img/artista.webp" alt="Gere, foto de perfil en blanco y negro con grano, con gorra y capucha" width="640" height="640" decoding="sync"></figure><ul class="ticks" data-reveal><li>Portable Noise: su sello y su marca</li><li>Be intentional: su lema</li><li>Rimando sus vivencias</li><li>SE ME ADELANTO (2026): su tema más reciente</li></ul></div></div></div></section>
+<section class="section alt" id="services" aria-label="Dónde escuchar y seguir"><div class="wrap"><h2 class="h2" data-reveal>Dónde escuchar y seguir</h2><p class="intro" data-reveal>Sus plataformas y redes, solo enlaces.</p><div class="grid grid-3"><article class="card" data-reveal><div class="card-body"><h3>Spotify</h3><p>Todo su catálogo y el tema más reciente.</p><a class="card-link" href="https://open.spotify.com/artist/4L9m86AePRhLkbN4QlWasS" target="_blank" rel="noopener noreferrer">Abrir Spotify</a></div></article><article class="card" data-reveal><div class="card-body"><h3>Apple Music</h3><p>SE ME ADELANTO, también en Apple Music.</p><a class="card-link" href="https://music.apple.com/us/album/se-me-adelanto/6801638455?i=6801638456" target="_blank" rel="noopener noreferrer">Abrir Apple Music</a></div></article><article class="card" data-reveal><div class="card-body"><h3>YouTube</h3><p>El video de NO DRAMA y su canal.</p><a class="card-link" href="https://youtube.com/@geremybaloa" target="_blank" rel="noopener noreferrer">Abrir YouTube</a></div></article><article class="card" data-reveal><div class="card-body"><h3>Instagram</h3><p>@gerebaloa: reels y publicaciones.</p><a class="card-link" href="https://www.instagram.com/gerebaloa/" target="_blank" rel="noopener noreferrer">Abrir Instagram</a></div></article><article class="card" data-reveal><div class="card-body"><h3>Threads</h3><p>@gerebaloa en Threads.</p><a class="card-link" href="https://www.threads.net/@gerebaloa" target="_blank" rel="noopener noreferrer">Abrir Threads</a></div></article><article class="card" data-reveal><div class="card-body"><h3>Linktree</h3><p>Todos sus enlaces en un solo lugar.</p><a class="card-link" href="https://linktr.ee/geremybaloa" target="_blank" rel="noopener noreferrer">Abrir Linktree</a></div></article></div></div></section>
+<section class="section" id="video" aria-label="Video"><div class="wrap"><h2 class="h2" data-reveal>Video</h2><p class="intro" data-reveal>NO DRAMA, versión alternativa, en el reproductor oficial de YouTube.</p><div class="vid" data-reveal><div class="vframe" data-yt="KJqwJ8zBpEE" data-title="NO DRAMA (alternative version)"><a class="vposter" href="https://youtu.be/KJqwJ8zBpEE" target="_blank" rel="noopener noreferrer" aria-label="Ver el video: NO DRAMA (alternative version)"><img src="./img/video-no-drama.webp" alt="Fotograma del video NO DRAMA: Gere sentado en la cajuela abierta de un auto rojo, de noche" width="1280" height="720" decoding="sync"><span class="vplay" aria-hidden="true"></span></a></div><p class="note">NO DRAMA (alternative version) · <a href="https://youtu.be/KJqwJ8zBpEE" target="_blank" rel="noopener noreferrer">YouTube</a></p></div></div></section>
+<section class="section alt" id="instagram" aria-label="Instagram"><div class="wrap"><h2 class="h2" data-reveal>En Instagram</h2><p class="intro" data-reveal>Publicaciones de @gerebaloa, con los reproductores oficiales de Instagram. Se cargan al llegar a esta sección.</p><div class="ig-grid"><div class="ig-slot" data-reveal><a class="ig-card" href="https://www.instagram.com/gerebaloa/reel/DcXSwJDOClJ/" target="_blank" rel="noopener noreferrer"><span class="ig-k">Instagram · @gerebaloa</span><strong>Reel fijado: tema nuevo</strong><span class="ig-go">Ver en Instagram</span></a><blockquote class="instagram-media" style="display:none" data-instgrm-permalink="https://www.instagram.com/gerebaloa/reel/DcXSwJDOClJ/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"><a href="https://www.instagram.com/gerebaloa/reel/DcXSwJDOClJ/" target="_blank" rel="noopener noreferrer">Ver en Instagram: Reel fijado: tema nuevo</a></blockquote></div><div class="ig-slot" data-reveal><a class="ig-card" href="https://www.instagram.com/gerebaloa/reel/DTBNLxujhNS/" target="_blank" rel="noopener noreferrer"><span class="ig-k">Instagram · @gerebaloa</span><strong>Reel fijado: «No se dice: me cansé»</strong><span class="ig-go">Ver en Instagram</span></a><blockquote class="instagram-media" style="display:none" data-instgrm-permalink="https://www.instagram.com/gerebaloa/reel/DTBNLxujhNS/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"><a href="https://www.instagram.com/gerebaloa/reel/DTBNLxujhNS/" target="_blank" rel="noopener noreferrer">Ver en Instagram: Reel fijado: «No se dice: me cansé»</a></blockquote></div><div class="ig-slot" data-reveal><a class="ig-card" href="https://www.instagram.com/gerebaloa/reel/DSvqVLtDlxV/" target="_blank" rel="noopener noreferrer"><span class="ig-k">Instagram · @gerebaloa</span><strong>Reel fijado: «Muchos quieren con você»</strong><span class="ig-go">Ver en Instagram</span></a><blockquote class="instagram-media" style="display:none" data-instgrm-permalink="https://www.instagram.com/gerebaloa/reel/DSvqVLtDlxV/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"><a href="https://www.instagram.com/gerebaloa/reel/DSvqVLtDlxV/" target="_blank" rel="noopener noreferrer">Ver en Instagram: Reel fijado: «Muchos quieren con você»</a></blockquote></div><div class="ig-slot" data-reveal><a class="ig-card" href="https://www.instagram.com/gerebaloa/reel/DGJtjkipshE/" target="_blank" rel="noopener noreferrer"><span class="ig-k">Instagram · @gerebaloa</span><strong>No drama (versión alternativa)</strong><span class="ig-go">Ver en Instagram</span></a><blockquote class="instagram-media" style="display:none" data-instgrm-permalink="https://www.instagram.com/gerebaloa/reel/DGJtjkipshE/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"><a href="https://www.instagram.com/gerebaloa/reel/DGJtjkipshE/" target="_blank" rel="noopener noreferrer">Ver en Instagram: No drama (versión alternativa)</a></blockquote></div></div><p class="note">Embeds oficiales de Instagram. Esta página no descarga ni copia nada de Instagram.</p><div class="ig-more" data-reveal><span>También en su perfil</span><a class="ig-chip" href="https://www.instagram.com/gerebaloa/p/DGJu8iPJ2zp/" target="_blank" rel="noopener noreferrer">Detrás de cámaras</a><a class="ig-chip" href="https://www.instagram.com/gerebaloa/p/DasgR7yjkBm/" target="_blank" rel="noopener noreferrer">Deep forest</a></div><div class="cta-row" style="margin-top:22px" data-reveal><a class="btn btn-primary" href="https://www.instagram.com/gerebaloa/" target="_blank" rel="noopener noreferrer">Ver más en Instagram</a></div></div></section>
+<section class="section" id="book" aria-label="Contratar"><div class="wrap"><div class="contact"><div data-reveal><h2 class="h2">Contrataciones</h2><p class="intro">Para shows, colaboraciones y eventos. Escríbele a Gere y cuéntale la idea.</p><ul class="ticks"><li>Shows y presentaciones</li><li>Colaboraciones</li><li>Eventos privados</li></ul></div><div class="panel" data-reveal><p>El camino más directo es un mensaje por Instagram.</p><p style="margin-top:18px"><a class="btn btn-primary" href="https://ig.me/m/gerebaloa" target="_blank" rel="noopener noreferrer">Escríbele por Instagram</a></p><p class="note" style="margin-top:14px">Si el botón no abre, ve a su perfil: <a href="https://www.instagram.com/gerebaloa/" target="_blank" rel="noopener noreferrer">instagram.com/gerebaloa/</a></p></div></div></div></section>
+<section class="section alt" id="faq" aria-label="FAQ"><div class="wrap"><h2 class="h2" data-reveal>Preguntas</h2><div class="faq"><details data-reveal><summary>¿Dónde puedo escuchar la música de Gere?</summary><p>En Spotify: el reproductor oficial de esta página trae sus temas, y cada lanzamiento tiene su propio reproductor. También está en Apple Music y YouTube.</p></details><details data-reveal><summary>¿Cuál es el tema más reciente de Gere?</summary><p>SE ME ADELANTO, de 2026, es su tema más reciente. Se puede escuchar aquí mismo en Spotify y también en Apple Music.</p></details><details data-reveal><summary>¿Hay un video de Gere?</summary><p>Sí: el video de NO DRAMA (versión alternativa) está en la sección de video y en su canal de YouTube. También hay reels y publicaciones en su Instagram.</p></details><details data-reveal><summary>¿Cómo contrato a Gere para un show?</summary><p>Escríbele por Instagram en @gerebaloa con el botón de la sección de contrataciones. Cuéntale la idea: show, colaboración o evento.</p></details><details data-reveal><summary>¿Qué es Portable Noise?</summary><p>Es su sello y su marca, según su perfil de Instagram.</p></details><details data-reveal><summary>¿Dónde sigo a Gere?</summary><p>En Instagram como @gerebaloa, en Threads, en Spotify, en Apple Music, en YouTube y en su Linktree, con los botones de la sección Dónde escuchar y seguir.</p></details></div></div></section>
+</main>
+<footer>
+  <div class="wrap">
+    <p><span class="wordmark">Opulent · Velvet · Rich · Enigmatic</span><br><strong>Gere</strong> · Música. Rimando sus vivencias.</p>
+    <p><small>Web por <a href="https://getredemptionstudios.com" target="_blank" rel="noopener">Redemption Studios</a></small></p>
+  </div>
+</footer>
+<div class="mbar">
+  <a class="btn btn-outline" href="https://open.spotify.com/artist/4L9m86AePRhLkbN4QlWasS" target="_blank" rel="noopener noreferrer">Spotify</a>
+  <a class="btn btn-primary" href="#book">Contrataciones</a>
+</div>
+<script>
+(function(){
+  var d=document,root=d.documentElement,L={"locale": "es-US"};
+  try{
+    if(performance.now()>1800)root.classList.remove('motion');
+    var hdr=d.querySelector('.site-header');
+    var onScroll=function(){hdr.classList.toggle('is-scrolled',window.scrollY>8)};
+    window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+
+    var btn=d.querySelector('.nav-toggle'),nav=d.getElementById('site-nav');
+    if(btn&&nav){
+      root.classList.add('js-nav');
+      var close=function(){nav.classList.remove('is-open');btn.setAttribute('aria-expanded','false')};
+      btn.addEventListener('click',function(){var o=nav.classList.toggle('is-open');btn.setAttribute('aria-expanded',o?'true':'false')});
+      nav.addEventListener('click',function(e){if(e.target.closest('a'))close()});
+      d.addEventListener('keydown',function(e){if(e.key==='Escape'&&nav.classList.contains('is-open')){close();btn.focus()}});
+    }
+
+    if(root.classList.contains('motion')&&'IntersectionObserver' in window){
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){io.unobserve(e.target);e.target.classList.add('is-in')}})},{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+      d.querySelectorAll('section').forEach(function(sec){sec.querySelectorAll('[data-reveal]').forEach(function(el,i){el.style.setProperty('--reveal-delay',Math.min(i*.06,.36)+'s');io.observe(el)})});
+    }else{root.classList.remove('motion')}
+
+    var fb=d.querySelectorAll('.filters button');
+    fb.forEach(function(b){b.addEventListener('click',function(){
+      var f=b.getAttribute('data-f');
+      fb.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+      d.querySelectorAll('.gallery .tile').forEach(function(t){t.hidden=!(f==='*'||(' '+t.getAttribute('data-cat')+' ').indexOf(' '+f+' ')>-1)});
+    })});
+
+    var pl=d.querySelector('.player');
+    if(pl){
+      var pb=d.getElementById('pl-btn'),pt=d.getElementById('pl-title'),ps=d.getElementById('pl-sub'),ph=d.getElementById('pl-head');
+      var sizeBar=function(){var bar=pl.querySelector('.pl-bar');if(bar)pl.style.setProperty('--pw',(bar.clientWidth-42)+'px')};
+      sizeBar();window.addEventListener('resize',sizeBar);
+      var setPlay=function(on){pl.classList.toggle('is-playing',on);pb.setAttribute('aria-label',on?pl.getAttribute('data-pause'):pl.getAttribute('data-play'))};
+      pb.addEventListener('click',function(){setPlay(!pl.classList.contains('is-playing'))});
+      pl.querySelectorAll('.trk').forEach(function(b){b.addEventListener('click',function(){
+        pl.querySelectorAll('.trk').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+        pt.textContent=b.querySelector('b').textContent;ps.textContent=b.querySelector('small').textContent;
+        if(ph){ph.style.animation='none';void ph.offsetWidth;ph.style.animation=''}
+        setPlay(true);
+      })});
+    }
+    
+    var igs=d.getElementById('instagram');
+    if(igs){var cargarIg=function(){if(cargarIg.hecho)return;cargarIg.hecho=1;var sc=d.createElement('script');sc.async=true;sc.src='https://www.instagram.com/embed.js';sc.onload=function(){try{window.instgrm&&window.instgrm.Embeds.process()}catch(e){}};d.body.appendChild(sc)};
+      if('IntersectionObserver' in window){var oi=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){oi.disconnect();cargarIg()}})},{rootMargin:'400px 0px'});oi.observe(igs)}}
+    var vf=d.querySelector('.vframe[data-yt]');
+    if(vf){vf.querySelector('.vposter').addEventListener('click',function(e){e.preventDefault();var f=d.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+vf.getAttribute('data-yt')+'?autoplay=1';f.title=vf.getAttribute('data-title');f.loading='lazy';f.allow='autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';f.referrerPolicy='strict-origin-when-cross-origin';f.allowFullscreen=true;vf.innerHTML='';vf.appendChild(f)})}
+
+  }catch(err){root.classList.remove('motion')}
+})();
+</script>
+</body>
+</html>
